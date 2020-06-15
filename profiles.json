@@ -14,18 +14,23 @@
             "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
             "name": "PowerShell",
             "background": "#333333",
-            "colorscheme": "Campbell",
+            "colorscheme": "Square",
+            "backgroundImage": "C:/Users/adria/Pictures/gifs/megu.gif",
+            "backgroundImageStretchMode": "none",
+            "backgroundImageAlignment": "bottomRight",
+            "backgroundImageOpacity": 0.8,        
             "historySize": 9001,
             "snapOnInput": true,
             "cursorColor": "#FFFFFF",
             "cursorShape": "bar",
             "commandline": "powershell.exe",
-            "fontFace": "Consolas",
+            "fontFace": "Cascadia Code",
             "fontSize": 10,
-            "acrylicOpacity": 0.7,
+            "acrylicOpacity": 0.9,
             "useAcrylic": true,
             "closeOnExit": true,
-            "padding": "0, 0, 0, 0"
+            "padding": "0, 0, 0, 0",
+            "cursorShape": "vintage"
         },
         {
             // Make changes here to the cmd.exe profile
@@ -35,10 +40,45 @@
             "hidden": true
         },
         {
+            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "hidden": false,
+            "name": "Ubuntu",
+            "source": "Windows.Terminal.Wsl",
+            "background": "#333333",
+            "colorscheme": "Square",
+            "historySize": 9001,
+            "snapOnInput": true,
+            "cursorColor": "#FFFFFF",
+            "cursorShape": "bar",
+            "fontFace": "Cascadia Code",
+            "fontSize": 10,
+            "acrylicOpacity": 0.9,
+            "useAcrylic": true,
+            "closeOnExit": true,
+            "padding": "0, 0, 0, 0",
+            "backgroundImage": "C:/Users/adria/Pictures/gifs/megu.gif",
+            "backgroundImageStretchMode": "none",
+            "backgroundImageAlignment": "bottomRight",
+            "backgroundImageOpacity": 0.8
+        },
+        {
             "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-            "hidden": true,
+            "hidden": false,
             "name": "Azure Cloud Shell",
-            "source": "Windows.Terminal.Azure"
+            "source": "Windows.Terminal.Azure",
+            "background": "#333333",
+            "colorscheme": "Square",
+            "historySize": 9001,
+            "snapOnInput": true,
+            "cursorColor": "#FFFFFF",
+            "cursorShape": "bar",
+            "fontFace": "Cascadia Code",
+            "fontSize": 10,
+            "acrylicOpacity": 0.9,
+            "useAcrylic": true,
+            "closeOnExit": true,
+            "padding": "0, 0, 0, 0"
+
         }
     ],
 
@@ -85,7 +125,28 @@
             "red" : "#D30102",
             "white" : "#EEE8D5",
             "yellow" : "#B58900"
-        }
+        },
+        {
+            "name": "Square",
+            "black": "#050505",
+            "red": "#e9897c",
+            "green": "#b6377d",
+            "yellow": "#ecebbe",
+            "blue": "#a9cdeb",
+            "purple": "#75507b",
+            "cyan": "#c9caec",
+            "white": "#f2f2f2",
+            "brightBlack": "#141414",
+            "brightRed": "#f99286",
+            "brightGreen": "#c3f786",
+            "brightYellow": "#fcfbcc",
+            "brightBlue": "#b6defb",
+            "brightPurple": "#ad7fa8",
+            "brightCyan": "#d7d9fc",
+            "brightWhite": "#e2e2e2",
+            "background": "#1a1a1a",
+            "foreground": "#acacab"
+          }
     ],
 
     // Add any keybinding overrides to this array.
