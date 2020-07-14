@@ -15,7 +15,6 @@
             "name": "PowerShell",
             "background": "#333333",
             "colorscheme": "Square",
-            "backgroundImage": "C:/Users/adria/Pictures/gifs/megu.gif",
             "backgroundImageStretchMode": "none",
             "backgroundImageAlignment": "bottomRight",
             "backgroundImageOpacity": 0.8,        
@@ -28,7 +27,7 @@
             "fontSize": 10,
             "acrylicOpacity": 0.9,
             "useAcrylic": true,
-            "closeOnExit": true,
+            "closeOnExit": "always",
             "padding": "0, 0, 0, 0",
             "cursorShape": "vintage"
         },
@@ -54,9 +53,8 @@
             "fontSize": 10,
             "acrylicOpacity": 0.9,
             "useAcrylic": true,
-            "closeOnExit": true,
+            "closeOnExit": "always",
             "padding": "0, 0, 0, 0",
-            "backgroundImage": "C:/Users/adria/Pictures/gifs/megu.gif",
             "backgroundImageStretchMode": "none",
             "backgroundImageAlignment": "bottomRight",
             "backgroundImageOpacity": 0.8
@@ -76,7 +74,7 @@
             "fontSize": 10,
             "acrylicOpacity": 0.9,
             "useAcrylic": true,
-            "closeOnExit": true,
+            "closeOnExit": "always",
             "padding": "0, 0, 0, 0"
 
         }
